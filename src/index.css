@@ -181,3 +181,25 @@ input {
   flex-direction: column;
   padding: 1rem;
 }
+/*modal*/
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-detail img {
+  max-height: 100vh;
+  margin: 0 auto;
+  max-width: 46rem;
+}
+.product-details-description {
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000 !important;
+}
