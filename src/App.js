@@ -3,6 +3,7 @@ import Cart from "./componant/Cart";
 import Filter from "./componant/Filter";
 import Product from "./componant/product";
 import data from "./data.json";
+
 class App extends React.Component {
   constructor() {
     super();
