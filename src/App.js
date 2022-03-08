@@ -2,7 +2,7 @@ import React from "react";
 import Cart from "./componant/Cart";
 import Filter from "./componant/Filter";
 import Product from "./componant/product";
-import data from "./data.json";
+import data from "./data";
 
 class App extends React.Component {
   constructor() {
